@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+.first-section {
+    background-color: #1F2937;
+}
+
+/* Header */
+header {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* Content */
+.first-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    gap: 20px;
+}
+
+.intro {
+    width: 500px;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+
+.intro-info {
+    color: white;
+}
+
+.intro-button {
+    padding: 14px 28px;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 17px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.intro-button:hover {
+    background-color: white;
+    color: #3882f6;
+    transition: 0.3s;
+}
+
+.intro-img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* Second Section */
+
+.second-section {
+    padding: 50px;
+    background-color: white;
+}
+
+.second-title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.second-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #1F2937;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.product-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.product-info {
+    text-align: center;
+    color: white;
+}
+
+.product-button {
+    background-color: #3882f6;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.product-button:hover {
+    background-color: white;
+    color: #3882f6;
+    transition: 0.3s;
+}
+
+/* Third Section */
+.third-section {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-container {
+    width: 900px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.person {
+    display: flex;
+    justify-self: end;
+    font-weight: 700;
+}
+
+/* Fourth Section */
+.fourth-section {
+    background-color: white;
+    padding: 80px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.fourth-container {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.cta {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sign-up {
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 17px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sign-button:hover {
+    background-color: white;
+    color: #3882f6;
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    background: #1F2937;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
