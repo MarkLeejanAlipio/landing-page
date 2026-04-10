@@ -214,3 +214,66 @@ li a:hover::after{
 .stack-name.backend, .stack-info.backend {
     color: white;
 }
+
+/* Motivation Section */
+
+.motivation-section {
+    background-color: grey;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moti-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 6px;
+    width: 850px;
+}
+
+.quote {
+    font-size: 35px;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold; 
+}
+
+
+/* Call to Action Section */
+
+.cta-section {
+    padding: 100px;    
+    display: flex;
+    justify-content: center; 
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0F172A;
+    padding: 25px;
+    border-radius: 10px;
+    width: 1100px;
+}
+
+
+.cta-text {
+    color: white;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #0F172A;
+    padding: 30px;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-family: "Space Grotesk";
+}
