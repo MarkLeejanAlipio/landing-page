@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -139,5 +140,77 @@ li a:hover::after{
 
 .btn.view:hover {
     background-color: #1D7AFC;
+    color: white;
+}
+
+/* Frontend Section */
+
+#frontend {
+    background-color: white;
+}
+
+.stack-section {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.stack-hero {
+    font-family: "Space Grotesk";
+    font-size: 35px;
+    text-align: center;
+}
+
+.stack-hero.frontend{
+    color: #0B0E14;
+}
+
+.stack-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stack {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.stack.frontend {
+    background-color: #e5eaf3;
+}
+
+.stack-name.frontend, .stack-info.frontend {
+    color: black;
+}
+
+
+.stack-img {
+    width: 50px;
+    height: auto;
+}
+
+/* Backend Section */
+
+#backend {
+    background-color: #191C22;
+}
+
+.stack-hero.backend {
+    color: white;
+}
+
+.stack.backend {
+    background-color: #2E3037;
+}
+
+.stack-name.backend, .stack-info.backend {
     color: white;
 }
