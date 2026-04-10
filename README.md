@@ -4,7 +4,7 @@ For this project, I'll be creating a full landing page. I'm thinking about creat
 
 # Overview of the landing page
 
-The landing page consits section that are listed below:
+The landing page consits of sections that are listed below:
 - Header 
 - Introduction
 - Tech Stack
