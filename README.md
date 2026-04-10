@@ -20,6 +20,12 @@ The landing page consists of sections that are listed below:
 - Typography
 - Basic Design
 
+# Tools Used
+
+- Google Stitch for additional designs
+- svgrepo for the svg stack images
+- Nano Banana 2 for the logo and tech stack iamge at the introduction
+
 # Reflection 
 
 During the process of creating the landing page, I became more accustomed in using flexbox, searching, and figuring out what needs to be done and how to fix bugs. There are some redundant codes in the css file but I still included them so that maybe others can undersatand how everything works together. For anyone who will see the code, just know that you can also do the project in a different way. Have fun learning!
