@@ -2,6 +2,12 @@
 
 For this project, I'll be creating a full landing page. I'm thinking about creating my own design. 
 
+# Preview 
+![Project Image](/images/image.png)
+
+# Live
+[Live Page](https://markleejanalipio.github.io/landing-page/)
+
 # Overview of the landing page
 
 The landing page consists of sections that are listed below:
